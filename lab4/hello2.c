@@ -6,6 +6,7 @@
 MODULE_AUTHOR("Serhii Popovych <serhii.popovych@globallogic.com>");
 MODULE_DESCRIPTION("Hello, world in Linux Kernel Training with list and time tracking");
 MODULE_LICENSE("Dual BSD/GPL");
+MODULE_PARM_DESC(repeat_count, "Number of times to print 'Hello, world!'");
 
 extern void print_hello(void);
 
